@@ -46,7 +46,7 @@ public class Ogre extends Enemy {
         });
     }
 
-    // ПРИКЛАД ПАСИВКИ: Товста шкіра — за один удар огр втрачає не більше 25 HP.
+    // ПРИКЛАД ПАСИВКИ: «Товста шкіра» — за один удар огр втрачає не більше 25 HP.
     @Override
     protected int modifyIncomingDamage(int damage) {
         return Math.min(damage, 25);
