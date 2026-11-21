@@ -45,7 +45,7 @@ public class Knight extends Hero {
                         enemy.stun(1);
                     }
                 }
-                return user.getName() + " застосовує Небесний молот: " + damage + " шкоди";
+                return user.getName() + " застосовує «Небесний молот»: " + damage + " шкоди";
             }
         });
     }

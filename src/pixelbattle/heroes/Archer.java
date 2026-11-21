@@ -48,7 +48,7 @@ public class Archer extends Hero {
                         damage += enemy.takeDamage(random(4, 8));
                     }
                 }
-                return user.getName() + " застосовує Зливу стріл (" + arrows
+                return user.getName() + " застосовує «Зливу стріл» (" + arrows
                         + " стріл на ворога): " + damage + " шкоди";
             }
         });

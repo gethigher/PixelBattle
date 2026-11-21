@@ -40,7 +40,7 @@ public class Ogre extends Enemy {
                     }
                 }
                 int healed = user.heal(20);
-                return user.getName() + " спричиняє Землетрус: " + damage
+                return user.getName() + " спричиняє «Землетрус»: " + damage
                         + " шкоди героям, +" + healed + " HP Огрові";
             }
         });

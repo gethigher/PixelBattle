@@ -22,6 +22,6 @@ public class Meteor implements Ultimate {
                 damage += enemy.takeDamage(Fighter.random(20, 30));
             }
         }
-        return user.getName() + " викликає Метеорит: " + damage + " шкоди";
+        return user.getName() + " викликає «Метеорит»: " + damage + " шкоди";
     }
 }
