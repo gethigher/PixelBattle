@@ -35,7 +35,7 @@ public class Archer extends Hero {
 
             @Override
             public String getDescription() {
-                return arrowsPerEnemy + " стріл по 4–8 шкоди кожному живому ворогу";
+                return arrowsPerEnemy + " стріл по від 4 до 8 шкоди кожному живому ворогу";
             }
 
             @Override

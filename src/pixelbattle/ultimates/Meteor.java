@@ -11,7 +11,7 @@ public class Meteor implements Ultimate {
 
     @Override
     public String getDescription() {
-        return "20–30 шкоди кожному живому ворогу";
+        return "Від 20 до 30 шкоди кожному живому ворогу";
     }
 
     @Override
