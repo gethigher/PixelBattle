@@ -15,7 +15,7 @@ public abstract class Enemy extends Fighter {
         super(name, maxHp, sprite);
     }
 
-    /** Яке вміння використати цього ходу (можна перевизначити — «розумніший» ворог). */
+    /** Яке вміння використати цього ходу (можна перевизначити — розумніший ворог). */
     public Skill chooseSkill() {
         List<Skill> ready = new ArrayList<>();
         for (Skill s : getSkills()) if (getCooldownLeft(s) == 0) ready.add(s);

@@ -35,7 +35,8 @@ public class Archer extends Hero {
 
             @Override
             public String getDescription() {
-                return arrowsPerEnemy + " стріл по від 4 до 8 шкоди кожному живому ворогу";
+                return "Стріл на кожного живого ворога: " + arrowsPerEnemy
+                        + ". Кожна завдає від 4 до 8 шкоди.";
             }
 
             @Override
@@ -47,7 +48,7 @@ public class Archer extends Hero {
                         damage += enemy.takeDamage(random(4, 8));
                     }
                 }
-                return user.getName() + " застосовує «Зливу стріл» (" + arrows
+                return user.getName() + " застосовує Зливу стріл (" + arrows
                         + " стріл на ворога): " + damage + " шкоди";
             }
         });

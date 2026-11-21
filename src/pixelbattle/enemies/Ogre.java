@@ -40,13 +40,13 @@ public class Ogre extends Enemy {
                     }
                 }
                 int healed = user.heal(20);
-                return user.getName() + " спричиняє «Землетрус»: " + damage
+                return user.getName() + " спричиняє Землетрус: " + damage
                         + " шкоди героям, +" + healed + " HP Огрові";
             }
         });
     }
 
-    // ПРИКЛАД ПАСИВКИ: «Товста шкіра» — за один удар огр втрачає не більше 25 HP.
+    // ПРИКЛАД ПАСИВКИ: Товста шкіра — за один удар огр втрачає не більше 25 HP.
     @Override
     protected int modifyIncomingDamage(int damage) {
         return Math.min(damage, 25);
